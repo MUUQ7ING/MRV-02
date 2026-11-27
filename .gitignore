@@ -1,0 +1,58 @@
+# Media files & downloads (match both directories and symlinks)
+raw
+audio
+covers
+lyrics
+processed
+temp
+output
+downloads
+*.mp4
+*.mov
+*.m4a
+*.mp3
+*.flac
+*.wav
+*.jpg
+*.jpeg
+*.png
+!templates/progress_bar.png
+*.lrc
+
+# Temporary script logs & scratch AE files
+scripts/*_report.txt
+scripts/.ae_headless
+scripts/test*.aep
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv
+env/
+venv/
+ENV/
+
+# Cookies & credentials
+cookies.txt
+bilibili_cookies.txt
+music_source_config.json
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
+
+# Remotion build & dependencies
+remotion/node_modules/
+remotion/public/
+remotion/.remotion/
+remotion/out/
+
+/playlist.json
+/web/node_modules/
+/remotion/build/
